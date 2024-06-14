@@ -2,4 +2,5 @@
     <string name="app_name">Assessment 3</string>
     <string name="profil">Profil</string>
     <string name="tutup">Tutup</string>
+    <string name="log_out">Logout</string>
 </resources>

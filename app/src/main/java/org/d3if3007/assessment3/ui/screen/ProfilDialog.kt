@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -85,12 +86,21 @@ fun ProfilDialog(
                     ) {
                         Text(text = stringResource(id = R.string.tutup))
                     }
+                    OutlinedButton(
+                        onClick = { onConfirmation() },
+                        modifier = Modifier.padding(8.dp)
+                    ) {
+                        Text(text = stringResource(id = R.string.log_out),
+                            color = MaterialTheme.colorScheme.error
+                        )
+                    }
+                }
                 }
             }
 
         }
     }
-}
+
 
 @Preview(showBackground = true)
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, showBackground = true)

@@ -2,5 +2,15 @@
     <string name="app_name">Assessment 3</string>
     <string name="profil">Profil</string>
     <string name="tutup">Tutup</string>
+    <string name="batal">Batal</string>
+    <string name="simpan">Simpan</string>
+    <string name="tambah">Tambah</string>
+    <string name="kategori">Kategori</string>
+    <string name="gambar">Gambar</string>
+    <string name="nama">nama</string>
+    <string name="error">Error</string>
     <string name="log_out">Logout</string>
+    <string name="try_again">Try again</string>
+    <string name="hapus_data">Apakah anda ingin menghapus data ini?</string>
+    <string name="hapus">Hapus</string>
 </resources>
